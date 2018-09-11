@@ -1,0 +1,97 @@
+.root{
+
+    -fx-background-color: white;
+    -fx-background-position: center;
+    -fx-background-size: 100%;
+
+
+}
+
+
+
+.button{
+
+    -fx-background-radius: 32px;
+    -fx-pref-width: 64;
+    -fx-pref-height: 64;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-border-radius: 25px;
+    -fx-background-position: center;
+    -fx-background-size: auto;
+
+
+}
+
+.menu-bar{
+
+    -fx-min-width: 150;
+    -fx-max-height: 20;
+    -fx-background-color: transparent;
+}
+
+.menu .label{
+    -fx-text-fill: orange;
+}
+
+.menu .menu:showing{
+
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+
+}
+
+
+.button:hover{
+    -fx-background-insets: -2;
+}
+
+.label{
+
+    -fx-text-fill: orange;
+    -fx-font-family: fantasy;
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+
+
+#closeButton{
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+}
+
+#closeButton:hover{
+    -fx-background-image: url("close.png");
+}
+
+#maximizeWindow{
+    -fx-background-color: linear-gradient(#f0ff65, #4A766E);
+}
+
+#maximizeWindow:hover{
+    -fx-background-image: url("maximize.png");
+}
+
+
+#iconifyButton{
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+}
+
+#iconifyButton:hover{
+    -fx-background-image: url("delete.png");
+}
+
+#minimizeWindow{
+    -fx-background-color: linear-gradient(#f0ff65, #4A766E);
+}
+
+#minimizeWindow:hover{
+    -fx-background-image: url("minimize.png");
+}
+
+
+
+

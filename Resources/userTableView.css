@@ -1,0 +1,95 @@
+.menu-bar{
+
+    -fx-pref-width: 100;
+    -fx-pref-height: 15;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-border-radius: 15px;
+    -fx-background-position: center;
+    -fx-background-size: auto;
+    -fx-background-color: 
+        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#9d9e9d 0%, #6b6a6b 20%, #343534 80%, #242424 100%),
+        linear-gradient(#8a8a8a 0%, #6b6a6b 20%, #343534 80%, #262626 100%),
+        linear-gradient(#777777 0%, #606060 50%, #505250 51%, #2a2b2a 100%);
+
+
+}
+
+#Options{
+	    -fx-background-color: transparent;
+
+}
+
+#Options .label{
+	    -fx-background-color: transparent;
+    	    -fx-text-fill: black;
+
+}
+.menu .label{
+
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1); 
+}
+
+.menu:showing .label{
+
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: 
+	linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#9d9e9d 0%, #6b6a6b 20%, #343534 80%, #242424 100%),
+        linear-gradient(#8a8a8a 0%, #6b6a6b 20%, #343534 80%, #262626 100%),
+        linear-gradient(#777777 0%, #606060 50%, #505250 51%, #2a2b2a 100%);
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1); 
+
+}
+
+.menu .menu:showing{
+
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+
+}
+
+.table-row-cell{
+
+
+	-fx-border-color: transparent;
+ 	-fx-table-cell-border-color: transparent;
+	-fx-table-cell-border-width: 1;
+}
+
+.table-column {
+  -fx-alignment: CENTER;
+}
+
+.table-view:focused {
+
+  -fx-background-color: transparent -fx-box-border,-fx-control-inner-background;
+
+}
+
+.table-view .column-header-background .label{
+	
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+
+}
+
+.table-row-cell:hover{
+	-fx-background-color: lightgray;  
+}
+
+.table-view .placeholder .label{
+
+	
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+	-fx-font-size: 16px;
+}

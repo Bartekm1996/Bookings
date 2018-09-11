@@ -1,0 +1,62 @@
+#Settings{
+
+    -fx-pref-width: 64;
+    -fx-pref-height: 64;
+    -fx-background-radius: 32px;
+    -fx-background-color: transparent;
+    -fx-background-position: center;
+    -fx-background-insets: 3;
+    -fx-background-size: 100%;
+    -fx-background-image: url("administrator.png");
+
+}
+
+#Settings:hover{
+
+    -fx-pref-width: 84;
+    -fx-pref-height: 84;
+    -fx-background-radius: 42px;
+
+}
+
+#Admin{
+
+    -fx-pref-width: 64;
+    -fx-pref-height: 64;
+    -fx-background-radius: 32px;
+    -fx-background-color: transparent;
+    -fx-background-position: center;
+    -fx-background-insets: 3;
+    -fx-background-size: 100%;
+    -fx-background-image: url("user.png");
+
+}
+
+#Admin:hover{
+
+    -fx-pref-width: 84;
+    -fx-pref-height: 84;
+    -fx-background-radius: 42px;
+
+}
+
+#ReturnButton{
+
+    -fx-pref-width: 64;
+    -fx-pref-height: 64;
+    -fx-background-radius: 32px;
+    -fx-background-color: transparent;
+    -fx-background-position: center;
+    -fx-background-insets: 3;
+    -fx-background-size: 100%;
+    -fx-background-image: url("back-arrow.png");
+
+}
+
+#ReturnButton:hover{
+
+    -fx-pref-width: 84;
+    -fx-pref-height: 84;
+    -fx-background-radius: 42px;
+
+}

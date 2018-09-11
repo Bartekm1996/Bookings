@@ -1,0 +1,7 @@
+.radio-button{
+
+	-fx-text-fill:orange;
+	-fx-font-family: fantasy;
+    	-fx-font-size: 15;
+    	-fx-font-weight: bold;
+}
